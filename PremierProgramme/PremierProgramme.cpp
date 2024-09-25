@@ -31,6 +31,7 @@ void saisir(double & float;char & unite)// passage par reference {}
 
 */
 
+
 //exercice 4
 double distance(double xa, double ya, double xb, double yb) {
 
@@ -57,6 +58,27 @@ double f(double x, bool&ok) {
 
 	
 }
+
+//exercice 6
+void swapValeur(int a,int b){
+	int temp;
+	temp= b;
+	b=a;
+	a=tmp
+}
+void swapAdresse(int*a, int*b){
+	int tmp=*b;
+	*b=*a;
+	*a=tmp;
+}
+void swapReference(int&a,int&b){
+	int tmp=&b;
+	&b=&a;
+	&a=tmp;
+
+}
+
+
 // exercice 7
 int facto(int n) {
 	int x=1;
@@ -107,6 +129,14 @@ int main()
 
 	*/
 
+
+
+
+
+
+
+
+	/*
 	//exercice 4
 	int xa, ya, xb, yb;
 	cout << ("donner les cordonnées de A xa et ya") << endl;
@@ -114,6 +144,10 @@ int main()
 	cout << ("donner les cordonnées de B xb et yb") << endl;
 	cin >> xb; cin >> yb;
 	cout << ("la distance entre A et B est:   "); cout<<(distance(xa, ya, xb, yb));
+
+
+ 
+ 	*/
 
 
 
@@ -137,6 +171,41 @@ int main()
 	}
 
 	*/
+
+
+	/*
+ //exercice6
+	int a,b;
+	cout<<("donner la valeur de a puis b")<<endl;
+	cin>>a;cin>>b;
+	//la resultat passapge par valeur
+	cout<<("la resultat de passage par valeur")<<endl;
+	swapValeur(a,b);
+	cout<<a<<endl ; cout<<b<<endl;
+	// la resultat de passage par adresse
+	cout<<("la resultat de passage par adresse")<<endl;
+	swapAdresse(&a,&b);
+	cout<<a<<endl ; cout<<b<<endl;
+	swapAdresse(&a,&b);
+
+
+
+	// la resultat de passage par reference
+	
+	cout<<("la resultat de passage par referencee")<<endl;
+	swapReference(a,b);
+	cout<<a<<endl ; cout<<b<<endl;
+	
+ 
+ 
+ 
+ 
+ 
+ 	*/
+
+
+
+
 
 
 
