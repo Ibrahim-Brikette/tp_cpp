@@ -6,7 +6,8 @@
 
 using std::cout; using std::endl; using std::cin;
 
- 
+ //barhoum is the best in the west
+
 
 
 //exercice 1
